@@ -129,3 +129,41 @@ header{
 .header-right img{
     width: 600px;
 }
+
+   /* company */
+.companies-header{
+    text-align: center;
+    margin-block: 30px;
+    color: var(--primary-text-color);
+ }
+ .logos{
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ .logo{
+    height: 46px;
+ }
+.features-section{
+    padding: 80px var(--padding-inline-section) 0;
+    background-image: url(./assets/asset\ 29.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ .features-header{
+    text-align: center;
+ }
+ .features-header h2{
+    margin-bottom: 20px;
+ }
+ .faetures-area{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 30px;
+ }
+ .features-card{
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    max-width: 30%;
+ }
